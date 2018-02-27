@@ -1,0 +1,133 @@
+/*estilo de texto para toda la web*/
+main{
+  font-family: 'Nova Flat',cursive;
+  width: 100%;
+  background-image: url(../imagenes/fon-right.jpg);
+  background-size: 1800px;
+
+
+}
+
+header{
+  background-color: red;
+  padding: 2em;
+}
+
+thead{
+  color: black;font-size: 12px;font-family:'Nova Flat', cursive;
+
+  }
+#logoband{
+  height: 120px;
+  padding:1em;
+  display: inline-block;
+
+}
+.videoweb{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+}
+.boxvideo{
+  display:
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.boxtxt{
+  display:;
+  text-align: center;
+  line-height: 20pt;
+  padding: 3em;
+  background-color: white; opacity: 0.7;
+  width: 500px;
+  border-radius: 10px;
+
+}
+h1{
+  font-family: 'Passion One', cursive;
+}
+.menu{
+  text-align: left;
+  padding-right:5em;
+  padding-bottom: 1em;
+  float: right;
+  
+}
+nav ul li{
+  list-style-type: none;
+  text-align: left;
+  ;
+}
+
+.format{
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+}
+
+tbody ol li{
+  font-size: 14px;
+}
+.tstrokes{
+  font-family:'Passion One',cursive;
+  padding-left: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40pt;
+
+}
+.homelink{
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+
+}
+.disclink{
+  display: inline-block;
+  margin-right: 20px;
+  float:left;
+}
+.productoslink{
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+}
+.contactolink{
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+}
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+video{
+  position: center;
+}
+
+
+.desplegableprod{
+  display: none;
+  text-decoration: none;
+  text-align: left;
+  padding: 1em;
+  color: white;
+}
+.productoslink:hover .desplegableprod{
+  display: block;
+
+}
+footer{
+  width: 100%;
+  background-color: #ee0000;
+  color: white;
+  font-family: 'Abel', sans-serif;
+
+}
+footer div{
+  padding: 1em;
+}

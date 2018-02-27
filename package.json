@@ -1,0 +1,26 @@
+{
+  "name": "webcoderhouse",
+  "version": "1.0.0",
+  "description": "Proyecto de pagina web Coderhouse",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendaserru/theStrokes.git"
+  },
+  "author": "brendaserru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendaserru/theStrokes/issues"
+  },
+  "homepage": "https://github.com/brendaserru/theStrokes#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.15.1"
+  },
+  "main": "index.js",
+  "dependencies": {}
+}
