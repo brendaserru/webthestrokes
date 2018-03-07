@@ -1,0 +1,34 @@
+.flex-containermerch {
+    display: flex;
+    flex-direction: column;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+.subcontainer3{
+	display: flex;
+	justify-content:center;
+} 
+.flex-subcontainermerch{
+	display: flex;
+	flex-wrap: wrap;   
+	justify-content:center;
+	align-items:center;
+	margin: 2em; 
+}
+.flex-subcontainermerch> div{
+	 width: 100px;
+ 	 margin: 20px;
+ 	 text-align: center;
+ 	 line-height: 75px;
+ 	 font-size: 30px;
+}
+.merch{
+	width: 150px;
+ 	margin: 20px;
+ 	text-align: center;
+ 	line-height: 75px;
+ 	font-size: 30px;
+
+}

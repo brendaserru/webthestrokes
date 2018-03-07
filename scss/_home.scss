@@ -1,0 +1,38 @@
+.parrafohome{
+	background-color: $blanco;
+	border-radius: 20px;
+	font-family: $font-one;
+	line-height: 15pt;
+	letter-spacing: 3px;
+	padding: 2em;
+	display: flex;
+	width: 40%;
+  	height: 200px;
+  	display: flex;
+ 	 justify-content: center;
+ 	 align-items: center;
+}
+.parrafo{
+	display:flex;
+	 justify-content: center;
+ 	 align-items: center;
+}
+.flex-container{
+	display: flex;
+	flex-direction:row-reverse;   
+	justify-content:center;
+	align-items:center;
+	margin: 2em; 
+}
+
+.flex-container > p {
+	width: 30%;
+    margin: 20px;
+    text-align: center;
+    padding: 3em;
+	background-color: $blanco;
+}
+
+.imghome{
+	margin-left: 1em;
+}

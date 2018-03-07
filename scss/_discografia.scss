@@ -1,0 +1,32 @@
+ $primary-color:#C80E2D;
+ $second-color:#ffffff;
+ $font-one:'Dosis', sans-serif;
+ $font-two:'Quicksand', sans-serif;
+
+.flex-containerdisc{
+	display: flex;
+	flex-direction:wrap;   
+	justify-content:center;
+	align-items:center;
+	margin: 2em; 
+}	
+
+.flex-subcontainerdisc{
+	display: flex;
+	flex-wrap: wrap;
+   	justify-content:center;
+	align-items:center;
+	margin: 2em; 
+}
+.cd{
+	width: 300px;
+ 	margin: 20px;
+ 	text-align: center;
+ 	line-height: 75px;
+ 	font-size: 30px;
+}
+
+.subcontainer2{
+	display: flex;
+	justify-content:center;
+}
